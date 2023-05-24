@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br   ">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub.marino</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Css/mobile.css">
+    <link rel="stylesheet" href="Css/desktop.css">
+
+    <link rel="shortcut icon" href="imagens/icone.png">
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" title="Home">
+            <img src="imagens/submarino-logo.png" alt="Logo Sub.marino" class="header-logo">
+        </a>
+
+        <a href="javascript:mostrarMenu()" class="header-menu"><img class="header-btn" src="imagens/menu.png"
+                alt="Menu"></a>
+
+        <nav class="header-nav">
+            <ul>
+                <li>
+                    <a href="index.html" title="Home">Página Inicial</a>
+                </li>
+                <li>
+                    <a href="info.html" title="Informática">Informática</a>
+                </li>
+                <li>
+                    <a href="contato.html" title="Contato">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="imagens/banner.webp" alt="banner">
+    </section>
+
+    <main>
+        <h1>Informática:</h1>
+
+        <div class="grid">
+            <div class="grid-coluna">
+                <img src="imagens/05.webp" alt="Produto 05">
+                <p class="descricao">Notebook Dell Inspiron I15-I1100-A10pf Intel Pentium Gold-7505 4gb 128gb Ssd W11
+                    15.6" + Microsoft 365 Personal Preto</p>
+                <p class="valor">R$ 2.999,90</p>
+            </div>
+            <div class="grid-coluna">
+                <img src="imagens/06.webp" alt="Produto 06">
+                <p class="descricao">Notebook Lenovo Ideapad 3i Intel Celeron-N4020 4gb 128gb Ssd Tela 15,6" Windows 11
+                    - Prata</p>
+                <p class="valor">R$ 2.899,90</p>
+            </div>
+            <div class="grid-coluna">
+                <img src="imagens/07.webp" alt="Produto 07">
+                <p class="descricao">Notebook Ultra Ub235 Celeron N4020 4gb 120gb Ssd W11 14.1" Preto + Office 365</p>
+                <p class="valor">R$ 1.490,99</p>
+            </div>
+            <div class="grid-coluna">
+                <img src="imagens/07.webp" alt="Produto 07">
+                <p class="descricao">Notebook Acer Aspire 5 Intel Core I5 -1135g7 8gb 512gb Ssd W11 14” Fhd Ips Safari
+                    Gold A514-54-56ha
+                </p>
+                <p class="valor">R$ 4.990,00</p>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+
+        <p>sub.marino - comércio eletrônico</p>
+
+        <p>Av.Irmãos Pereira 600, Campo Mourão - PR</p>
+
+        <img class="footer-pagamento" src="imagens/pagamento.png" alt="Pagamento">
+
+    </footer>
+
+    <script>
+        function mostrarMenu() {
+            document.querySelector('.header-nav').classList.toggle('mostrar');
+        }
+    </script>
+
+</body>
+
+</html>

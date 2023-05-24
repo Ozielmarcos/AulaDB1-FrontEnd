@@ -1,0 +1,44 @@
+@media (min-width: 420px) and (max-width: 1920px) {
+    .header-menu {
+        display: none;
+    }
+
+    .header-nav {
+        display: block;
+        float: right;
+    }
+
+    .header-nav ul li {
+        display: inline-block;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .header-nav a:hover {
+        color: yellow;
+    }
+
+    .banner img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    main {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .grid-coluna {
+        margin: 10px;
+    }
+
+    .footer-pagamento {
+        width: 450px;
+    }
+}
